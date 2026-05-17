@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "honeypot-attack-dashboard"
+version = "0.1.0"
+description = "A low-interaction SSH/HTTP honeypot that lures attackers, logs every credential and command, and visualises captured attacks on a live dashboard."
+requires-python = ">=3.13"
+license = { text = "MIT" }
+authors = [{ name = "Sarthak Aggarwal" }]
+dependencies = [
+  "paramiko>=3.4",
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.29",
+  "geoip2>=4.8",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "ruff>=0.6",
+  "httpx>=0.27",
+  "requests>=2.31",
+]
+
+[project.scripts]
+honeypot = "honeypot.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["honeypot", "api"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+  "ignore::DeprecationWarning",
+]

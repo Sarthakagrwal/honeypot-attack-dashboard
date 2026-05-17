@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+
+# Node / web
+node_modules/
+web/dist/
+web/test-results/
+web/playwright-report/
+web/.vite/
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Honeypot runtime artefacts
+data/honeypot.db*
+data/host_keys/
+data/*.mmdb

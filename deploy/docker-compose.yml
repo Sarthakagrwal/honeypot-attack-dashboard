@@ -1,0 +1,45 @@
+# docker-compose for the honeypot-attack-dashboard engine + API.
+#
+#   docker compose -f deploy/docker-compose.yml up -d --build
+#
+# See deploy/VPS-DEPLOYMENT.md for the full disposable-VPS runbook, including
+# the host-side iptables redirect that sends real port-22 scans to 2222.
+
+services:
+  honeypot:
+    build:
+      # Build context is the repo root so the Dockerfile can copy the package.
+      context: ..
+      dockerfile: deploy/Dockerfile
+    image: honeypot-attack-dashboard:latest
+    container_name: honeypot
+    restart: unless-stopped
+
+    environment:
+      # Bind to all interfaces inside the container so published ports work.
+      HONEYPOT_HOST: "0.0.0.0"
+      # Capture DB, host key and GeoIP database all live on the mounted volume.
+      HONEYPOT_DB: "/data/honeypot.db"
+      HONEYPOT_HOST_KEY: "/data/host_keys/ssh_host_rsa_key"
+      HONEYPOT_GEOIP_DB: "/data/dbip-city-lite.mmdb"
+
+    ports:
+      # host:container — the SSH honeypot. A host iptables rule additionally
+      # redirects real port 22 here (see the runbook).
+      - "2222:2222"
+      # The HTTP honeypot.
+      - "8080:8080"
+      # The read-only dashboard API. Bind to localhost on the host and put it
+      # behind a reverse proxy / TLS if you expose the dashboard publicly.
+      - "127.0.0.1:8000:8000"
+
+    volumes:
+      # Persist captures, the generated SSH host key and the GeoIP DB.
+      - ./data:/data
+
+    # Defence in depth: the honeypot never needs to write outside /data.
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
